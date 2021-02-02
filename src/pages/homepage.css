@@ -74,6 +74,8 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    border-radius: 40px;
+    transition: 0.3s;
     
 }
 
@@ -85,7 +87,47 @@
 }
 
 .project-card:hover {
-    border-radius: 40px;
+    
     box-shadow: -5px 0px 33px #888888;
     box-shadow: 15px 16px 65px #888888;
+}
+
+.project-card-text {
+    /* display: flex;
+    flex-flow: column nowrap;
+    justify-content: center; */
+    width: 85%;
+}
+
+.footer {
+    margin-top: 5em;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+    padding: 2.5em 0;
+}
+
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: white;
+}
+
+.footer-links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 20%;
+    margin-top:1.5em;
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
 }

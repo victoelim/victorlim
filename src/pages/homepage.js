@@ -11,6 +11,7 @@ const homepage = () => {
                 <div className='hero-text'>
                     <h2>Hi! Welcome</h2>
                     <p>My name is Victor; an aspring web developer and this is my website. Please explore!</p>
+                    
                 </div>
                 <div className="background">
                     <svg className="big_purple" width="632" height="632" viewBox="0 0 632 632" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -72,25 +73,43 @@ const homepage = () => {
                         <div className="placeholder">
                             
                         </div>
-                        <h5>Project Title</h5>
-                        <p>Dolor aliquip culpa Lorem pariatur anim consequat pariatur sint quis consequat.</p>
+                        <div className='project-card-text'>
+                            <h5>Project Title</h5>
+                            <p>Dolor aliquip culpa Lorem pariatur anim consequat pariatur sint quis consequat.</p>
+                        </div>
+                        
                     </div>
                     <div className="project-card">
                         <div className="placeholder">
                             
                         </div>
-                        <h5>Project Title</h5>
-                        <p>Dolor aliquip culpa Lorem pariatur anim consequat pariatur sint quis consequat.</p>
+                        <div className='project-card-text'>
+                            <h5>Project Title</h5>
+                            <p>Dolor aliquip culpa Lorem pariatur anim consequat pariatur sint quis consequat.</p>
+                        </div>
+                        
                     </div>
                     <div className="project-card">
                         <div className="placeholder">
                             
                         </div>
-                        <h5>Project Title</h5>
-                        <p>Dolor aliquip culpa Lorem pariatur anim consequat pariatur sint quis consequat.</p>
+                        <div className='project-card-text'>
+                            <h5>Project Title</h5>
+                            <p>Dolor aliquip culpa Lorem pariatur anim consequat pariatur sint quis consequat.</p>
+                        </div>
+                        
                     </div>
                 </div>
 
+            </section>
+            <section className='footer'>
+                <p>Get In Touch</p>
+                <div className='footer-links'>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Email</a>
+                    <a href="#">GitHub</a>
+                </div>
             </section>
             
         </>
