@@ -25,7 +25,7 @@ const homepage = () => {
                         <div className="placeholder">
                             
                         </div>
-                        <div className='project-card-text'>
+                        <div className='project-card-text mt-3'>
                             <h5>Project Title</h5>
                             <p>Dolor aliquip culpa Lorem pariatur anim consequat pariatur sint quis consequat.</p>
                         </div>
@@ -35,7 +35,7 @@ const homepage = () => {
                         <div className="placeholder">
                             
                         </div>
-                        <div className='project-card-text'>
+                        <div className='project-card-text mt-3'>
                             <h5>Project Title</h5>
                             <p>Dolor aliquip culpa Lorem pariatur anim consequat pariatur sint quis consequat.</p>
                         </div>
@@ -45,7 +45,7 @@ const homepage = () => {
                         <div className="placeholder">
                             
                         </div>
-                        <div className='project-card-text'>
+                        <div className='project-card-text mt-3'>
                             <h5>Project Title</h5>
                             <p>Dolor aliquip culpa Lorem pariatur anim consequat pariatur sint quis consequat.</p>
                         </div>

@@ -69,12 +69,13 @@
 
 .project-section {
     margin: 0 auto;
-    width: 70%;
+    width: 65%;
 }
 
 .projects {
     display: grid;
     grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
+    justify-content: center;
 }
 
 .project-card {
@@ -107,7 +108,7 @@
     /* display: flex;
     flex-flow: column nowrap;
     justify-content: center; */
-    width: 85%;
+    width: 94%;
 }
 
 .footer {

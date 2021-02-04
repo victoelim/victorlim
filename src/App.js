@@ -3,6 +3,7 @@ import './App.css';
 import {Route, Switch} from 'react-router-dom';
 import Navbar from "./component/Navbar/Navbar";
 import Homepage from "./pages/homepage";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
