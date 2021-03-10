@@ -1,0 +1,14 @@
+@import './variables';
+
+.about-text {
+    width: 90%;
+    margin: 0 auto;
+
+    p {
+        font-family: $secondaryFont;
+    }
+
+    li {
+        font-family: $secondaryFont;
+    }
+}

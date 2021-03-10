@@ -1,8 +1,5 @@
 import React from 'react';
 import "../styles/homepage.css";
-import Orange_rect from "../Personal Website/Rectangle 2.svg";
-import background_img from "../Personal Website/Untitled_Artwork.png";
-
 
 const homepage = () => {
     return (
